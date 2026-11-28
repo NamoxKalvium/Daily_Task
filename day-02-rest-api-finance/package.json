@@ -1,0 +1,15 @@
+{
+  "name": "day-02-rest-api-finance",
+  "version": "1.0.0",
+  "description": "Day 2: REST API design for a personal finance tracker (expense categorization and monthly budget alerts)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
+  }
+}
