@@ -1,0 +1,17 @@
+{
+  "name": "day-06-auth-jwt-restaurant",
+  "version": "1.0.0",
+  "description": "Day 6: JWT authentication, scrypt password hashing, and role/ownership authorization for a restaurant reservation system",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js",
+    "demo": "node scripts/demo.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.2"
+  }
+}
