@@ -1,0 +1,13 @@
+{
+  "name": "day-03-mongodb-itinerary",
+  "version": "1.0.0",
+  "description": "Day 3: MongoDB schemas, validation, relationship strategy, and indexes for a travel itinerary planner",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "verify": "node scripts/verify.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.12.1"
+  }
+}
